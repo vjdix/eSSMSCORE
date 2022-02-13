@@ -166,7 +166,7 @@ namespace eSSMSCORE
             services.AddSession(options =>
             {
                 // Set a short timeout for easy testing.
-                options.IdleTimeout = TimeSpan.FromMinutes(60);
+                options.IdleTimeout = TimeSpan.FromMinutes(1);
                 options.Cookie.Name = "CreativeTim.Argon.DotNetCore.SessionCookie";
                 // You might want to only set the application cookies over a secure connection:
                 // options.Cookie.SecurePolicy = CookieSecurePolicy.Always;

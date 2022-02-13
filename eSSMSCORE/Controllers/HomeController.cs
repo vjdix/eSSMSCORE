@@ -36,6 +36,10 @@ namespace eSSMSCORE.Controllers
         {
             return View();
         }
+        public IActionResult Icons()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
